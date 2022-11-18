@@ -1,0 +1,4 @@
+{
+	"ticket_system": "my_tickets",
+	"dependencies": "dependency1, requirement2"
+}
