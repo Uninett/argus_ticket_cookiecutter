@@ -1,4 +1,4 @@
-How to use this cokkiecutter
+How to use this cookiecutter
 ============================
 
 If you do not have cookiecutter you will have to install it.
@@ -33,15 +33,16 @@ Here's the generated directory tree inside ``argus_ticket_bugzilla``::
     └── tox.ini
 
 Write your plugin in the file ``src/argus_ticket_bugzilla.py``, your tests in
-``tests/test_argus_ticket_bugzilla.py``, your changelog in ``CHANGELOG.md and
+``tests/test_argus_ticket_bugzilla.py``, your changelog in ``CHANGELOG.md`` and
 most importantly your docs in ``README.rst``.
 
 Your README must explain any extra django settings needed besides the usual
-``TICKET_PLUGIN``, ``TICKET_AUTHENTICATION`` and ``TICKET_INFORMATION``.
+``TICKET_ENDPOINT``, ``TICKET_AUTHENTICATION_SECRET`` and
+``TICKET_INFORMATION``.
 
-You should explain how to get what's necessary for authenticating (webhook?
-username/password? magical email address?) and what should be put in this
-ticket plugin's ``TICKET_AUTHENTICATION``.
+You should explain how to get what's necessary for authenticating (webhook,
+username/password, token, magical email address, ...) and what should be put in
+this ticket plugin's ``TICKET_AUTHENTICATION_SECRET``.
 
 Finally, if ``TICKET_INFORMATION`` is at all necessary, you need to describe
 (with an example) what should be in it.
