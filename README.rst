@@ -23,6 +23,7 @@ Here's the generated directory tree inside ``argus_ticket_bugzilla``::
     ├── Makefile
     ├── pyproject.toml
     ├── README.rst
+    ├── CHANGELOG.rst
     ├── runtests.py
     ├── src
     │   └── argus_ticket_bugzilla.py
@@ -33,7 +34,7 @@ Here's the generated directory tree inside ``argus_ticket_bugzilla``::
     └── tox.ini
 
 Write your plugin in the file ``src/argus_ticket_bugzilla.py``, your tests in
-``tests/test_argus_ticket_bugzilla.py``, your changelog in ``CHANGELOG.md`` and
+``tests/test_argus_ticket_bugzilla.py``, your changelog in ``CHANGELOG.rst`` and
 most importantly your docs in ``README.rst``.
 
 Your README must explain any extra django settings needed besides the usual
