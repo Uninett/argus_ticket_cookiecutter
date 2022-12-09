@@ -14,7 +14,7 @@ maintainers = [
     # other maintainers here
 ]
 dependencies = [
-    "argus-server>=1.9",
+    "argus-server>=1.10.1",
     {%- for dependency in cookiecutter.dependencies.split(',') %}
     "{{ dependency.strip() }}",
     {%- endfor %}
