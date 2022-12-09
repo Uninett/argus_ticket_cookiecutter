@@ -3,7 +3,7 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "argus_notification_{{ cookiecutter.ticket_system }}"
+name = "argus_ticket_{{ cookiecutter.ticket_system }}"
 authors = [{name = "Hanne Moa", email = "hanne.moa@sikt.no"}]
 readme = "README.rst"
 maintainers = [{name = "Hanne Moa", email = "hanne.moa@sikt.no"}]
