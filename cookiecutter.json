@@ -1,4 +1,8 @@
 {
 	"ticket_system": "my_tickets",
-	"dependencies": "dependency1, requirement2"
+	"dependencies": "dependency1, requirement2",
+	"author_name": "Nomen Nescio",
+	"author_email": "nomen.nescio@example.com",
+	"maintainer_name": "Nomen Nescio",
+	"maintainer_email": "nomen.nescio@example.com"
 }

@@ -4,9 +4,15 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "argus_ticket_{{ cookiecutter.ticket_system }}"
-authors = [{name = "Hanne Moa", email = "hanne.moa@sikt.no"}]
+maintainers = [
+    {name = "{{ cookiecutter.maintainer_name }}", email = "{{ cookiecutter.maintainer_email }}"}
+    # other maintainers here
+]
 readme = "README.rst"
-maintainers = [{name = "Hanne Moa", email = "hanne.moa@sikt.no"}]
+maintainers = [
+    {name = "{{ cookiecutter.maintainer_name }}", email = "{{ cookiecutter.maintainer_email }}"}
+    # other maintainers here
+]
 dependencies = [
     "argus-server>=1.9",
     {%- for dependency in cookiecutter.dependencies.split(',') %}
