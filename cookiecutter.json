@@ -12,5 +12,7 @@
     "CC0 v1.0 Universal",
     "BSD 3-Clause",
     "Other"
-  ]
+  ],
+  "homepage_link": "https://github.com/{{ cookiecutter.author_name|replace(' ', '-') }}/argus_ticket_{{ cookiecutter.ticket_system }}",
+  "sourcepage_link": "https://github.com/{{ cookiecutter.author_name|replace(' ', '-') }}/argus_ticket_{{ cookiecutter.ticket_system }}"
 }
