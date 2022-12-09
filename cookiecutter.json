@@ -1,8 +1,16 @@
 {
-	"ticket_system": "my_tickets",
-	"dependencies": "dependency1, requirement2",
-	"author_name": "Nomen Nescio",
-	"author_email": "nomen.nescio@example.com",
-	"maintainer_name": "Nomen Nescio",
-	"maintainer_email": "nomen.nescio@example.com"
+  "ticket_system": "my_tickets",
+  "dependencies": "dependency1, requirement2",
+  "author_name": "Nomen Nescio",
+  "author_email": "nomen.nescio@example.com",
+  "maintainer_name": "Nomen Nescio",
+  "maintainer_email": "nomen.nescio@example.com",
+  "license": [
+    "MIT",
+    "Apache License 2.0",
+    "GNU General Public License v3.0",
+    "CC0 v1.0 Universal",
+    "BSD 3-Clause",
+    "Other"
+  ]
 }
